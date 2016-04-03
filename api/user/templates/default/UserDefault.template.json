@@ -1,0 +1,21 @@
+{
+  "default": {
+    "attributes": {
+      "username": {
+        "minLength": 3,
+        "required": true
+      },
+      "firstname": {
+        "minLength": 1
+      },
+      "lastname": {
+        "minLength": 1
+      },
+      "email": {
+        "minLength": 6,
+        "required": true
+      }
+    },
+    "displayedAttribute": "username"
+  }
+}

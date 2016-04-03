@@ -1,0 +1,10 @@
+{
+  "smtp": {
+    "from": "ulien.boulevart@adfab.fr",
+    "service": {
+      "name": "Gmail",
+      "user": "julien.boulevart@adfab.fr",
+      "pass": "americanPie1988"
+    }
+  }
+}

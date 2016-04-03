@@ -1,0 +1,10 @@
+{
+  "default": {
+    "attributes": {
+      "url": {},
+      "title": {},
+      "image": {}
+    },
+    "displayedAttribute": "title"
+  }
+}

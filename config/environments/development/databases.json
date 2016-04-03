@@ -1,0 +1,31 @@
+{
+  "orm": {
+    "adapters": {
+      "disk": "sails-disk",
+      "mysql": "sails-mysql"
+    },
+    "defaultConnection": "lili",
+    "connections": {
+      "default": {
+        "adapter": "disk",
+        "filePath": ".tmp/",
+        "fileName": "default.db",
+        "migrate": "alter"
+      },
+      "permanent": {
+        "adapter": "disk",
+        "filePath": "./data/",
+        "fileName": "permanent.db",
+        "migrate": "alter"
+      },
+      "lili": {
+        "adapter": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "root",
+        "database": "lili"
+      }
+    }
+  }
+}
