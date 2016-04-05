@@ -1,7 +1,9 @@
 {
   "default": {
     "attributes": {
-      "content": {}
+      "content": {
+        "required": true
+      }
     },
     "displayedAttribute": "content"
   }

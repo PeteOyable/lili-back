@@ -11,17 +11,6 @@
     "value": {
       "type": "string"
     },
-    "lang": {
-      "type": "string",
-      "required": true
-    },
-    "template": {
-      "type": "string",
-      "required": true
-    },
-    "id_ref": {
-      "type": "int"
-    },
     "createdBy": {
       "model": "user"
     },
@@ -35,6 +24,17 @@
     "post": {
       "collection": "post",
       "via": "tags"
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "id_ref": {
+      "type": "int"
     }
   },
   "autoCreatedAt": true,

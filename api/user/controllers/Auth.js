@@ -127,8 +127,6 @@ module.exports = {
       provider: 'local'
     });
 
-    console.log(params)
-
     // Password is required.
     if (!params.password) {
       ctx.status = 400;

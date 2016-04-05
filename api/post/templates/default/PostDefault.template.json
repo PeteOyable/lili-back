@@ -1,9 +1,16 @@
 {
   "default": {
     "attributes": {
-      "url": {},
-      "title": {},
-      "image": {}
+      "url": {
+        "required": true
+      },
+      "title": {
+        "required": true
+      },
+      "image": {},
+      "description": {
+        "required": true
+      }
     },
     "displayedAttribute": "title"
   }

@@ -1,5 +1,9 @@
 {
   "routes": {
+    "POST /scrape": {
+      "controller": "Scrape",
+      "action": "index"
+    },
     "GET /post": {
       "controller": "Post",
       "action": "find",
@@ -14,7 +18,7 @@
         "isAuthorized"
       ]
     },
-    "POST /post": {
+    "POST /post": { 
       "controller": "Post",
       "action": "create",
       "policies": [

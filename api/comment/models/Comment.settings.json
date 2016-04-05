@@ -8,17 +8,6 @@
     "content": {
       "type": "text"
     },
-    "lang": {
-      "type": "string",
-      "required": true
-    },
-    "template": {
-      "type": "string",
-      "required": true
-    },
-    "id_ref": {
-      "type": "int"
-    },
     "createdBy": {
       "model": "user"
     },
@@ -31,6 +20,17 @@
     },
     "post": {
       "model": "post"
+    },
+    "lang": {
+      "type": "string",
+      "required": true
+    },
+    "template": {
+      "type": "string",
+      "required": true
+    },
+    "id_ref": {
+      "type": "int"
     }
   },
   "autoCreatedAt": true,
