@@ -23,7 +23,8 @@
       "action": "create",
       "policies": [
         "isAuthorized",
-        "addDataCreate"
+        "addDataCreate",
+        "authenticated"
       ]
     },
     "PUT /post/:id": {

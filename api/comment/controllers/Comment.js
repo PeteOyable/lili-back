@@ -41,6 +41,24 @@ module.exports = {
   },
 
   /**
+   * Get all comments from a specific post
+   *
+   * @return {Object|Array}
+   */
+
+  findRelatedPost: function * () {
+    this.model = model;
+    try {
+      this.request.query.where = {};
+      this.request.query.where['post'] = this.params.postId;
+      let entry = yield strapi.hooks.blueprints.find(this);
+      this.body = entry;
+    } catch (err) {
+      this.body = err;
+    }
+  },
+
+  /**
    * Create a Comment entry.
    *
    * @return {Object}

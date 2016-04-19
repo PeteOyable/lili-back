@@ -14,6 +14,13 @@
         "isAuthorized"
       ]
     },
+    "GET /comment/post/:postId": {
+      "controller": "Comment",
+      "action": "findRelatedPost",
+      "policies": [
+        "isAuthorized"
+      ]
+    },
     "POST /comment": {
       "controller": "Comment",
       "action": "create",
